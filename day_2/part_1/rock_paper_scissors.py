@@ -29,7 +29,7 @@ def play_game(opponent, player):
         if player == 'scissors':
             outcome = 'win'
         else:
-            outcome = 'lose'       
+            outcome = 'lose'
     elif opponent == 'scissors':
         if player == 'rock':
             outcome = 'win'

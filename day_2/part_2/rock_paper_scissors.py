@@ -32,7 +32,7 @@ def play_game(opponent_choice, player_outcome):
         if player_outcome == 'lose':
             player_choice = 'rock'
         else:
-            player_choice = 'scissors'       
+            player_choice = 'scissors'
     elif opponent_choice == 'scissors':
         if player_outcome == 'lose':
             player_choice = 'paper'
